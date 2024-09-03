@@ -12,4 +12,4 @@ directoryInput=input(f"Please enter the Directory you would like to check: " )
 
 directoryList= os.listdir(directoryInput)
 print(directoryList)
-print(f"There are {directoryList.count(directoryInput)} items in {directoryInput}")
+print(f"There are {len(directoryInput)} items in {directoryInput}")

@@ -6,9 +6,12 @@
  #takes said directory as input ("Enter the name of the directory")
  #display number of items in directory 
 
+#Import OS module to list Directories and files
 import os
 
+#take directory as input from user 
 directoryInput=input(f"Please enter the Directory you would like to check: " )
+#used 
 directoryList= os.listdir(f"/home/ubuntu/{directoryInput}")
 print(directoryList)
-print(f"There are {len(directoryInput)} items in {directoryInput}")
+print(f"There are {len(directoryList)} items in {directoryInput}")

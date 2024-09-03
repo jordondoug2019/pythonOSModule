@@ -9,7 +9,6 @@
 import os
 
 directoryInput=input(f"Please enter the Directory you would like to check: " )
-
-directoryList= os.listdir(directoryInput)
+directoryList= os.listdir(f"/home/ubuntu/{directoryInput}")
 print(directoryList)
 print(f"There are {len(directoryInput)} items in {directoryInput}")
